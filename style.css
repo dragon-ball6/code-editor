@@ -1,0 +1,12 @@
+/* bg image url: https://cdn.hashnode.com/res/hashnode/image/upload/v1610444061579/DGsqjP6GG.jpeg */
+
+body, html {
+  background-color: #300000;
+  background-image: image("bg.jpeg");
+  opacity: 0.2;
+  font-family: "", monospace;
+}
+
+#code {
+  background-color: #00300d;
+}
