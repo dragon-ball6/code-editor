@@ -1,12 +1,17 @@
-/* bg image url: https://cdn.hashnode.com/res/hashnode/image/upload/v1610444061579/DGsqjP6GG.jpeg */
+@SpaceMono {
+  font-family: "SpaceMono", monospace;
+  src: url("/fonts/SpaceMono-Regular.woff");
+}
+@SpaceMono-Bold {
+  font-family: "SpaceMono Bold", monospace;
+  src: url("/fonts/SpaceMono-Bold.woff");
+}
 
 body, html {
   background-color: #300000;
-  background-image: image("bg.jpeg");
-  opacity: 0.2;
-  font-family: "", monospace;
+  font-family: "SpaceMono", monospace;
 }
 
-#code {
+.code {
   background-color: #00300d;
 }
